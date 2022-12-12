@@ -47,7 +47,7 @@ class MasterPanel:
         frame_form_fill = tk.Frame(frame_form, height=50, bd=0, relief=tk.SOLID, bg='#fcfcfc')
         frame_form_fill.pack(side="bottom", expand=tk.YES, fill=tk.BOTH)
 
-        etiqueta_formato = tk.Label(frame_form_fill, text="Selecione el rango de las horas:", font=('Times', 14), fg="#666a88",
+        etiqueta_formato = tk.Label(frame_form_fill, text="Selecione el rango de hora:", font=('Times', 14), fg="#666a88",
                                     bg='#fcfcfc',
                                     anchor="w")
         etiqueta_formato.pack(fill=tk.X, padx=20, pady=5)
